@@ -1,0 +1,6 @@
+# Bootstrap Configuration
+org.springframework.cloud.bootstrap.BootstrapConfiguration=\
+com.foxwho.consul.demo001.locator.MyConsulConfigBootstrapAutoConfiguration
+# Auto Configuration
+#org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+#com.foxwho.consul.demo001.locator.MyWatchInitAutoConfiguration

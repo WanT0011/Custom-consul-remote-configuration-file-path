@@ -29,8 +29,12 @@ spring:
         watch:
           #调用的频率 1000 毫秒
           delay: 1000
-
-
 #全局自定义配置属性
 config:
   title: 全局自定义配置属性
+#自定义的consul配置路径的源
+com:
+  want:
+    sources:
+      application/config/
+      application/want/

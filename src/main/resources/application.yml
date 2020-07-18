@@ -1,8 +1,7 @@
 server:
   port: 8010
-spring:
-  profiles:
-    active: dev
-  application:
-    name: @pom.artifactId@
 
+# 配置到consul中
+#want:
+#  name: application-data
+#  flag: want-flag
